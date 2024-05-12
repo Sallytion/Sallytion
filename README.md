@@ -1,0 +1,7 @@
+- 👋 Hi, I’m @Sallytion
+- 👀 I’m interested in 3d Models, Visual things, and development
+- 🌱 I’m currently learning Web Dev and ThreeJS
+- 💞️ I’m looking to collaborate on Frontend Webdev projects
+- 📫 contact me at : yash-tekwani@email.com
+- 😄 Pronouns: Sallytion, Yash
+- ⚡ Fun fact: Mickey Mouse is a knock-off.
