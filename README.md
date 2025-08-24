@@ -2,6 +2,6 @@
 - 👀 I’m interested in 3d Models, Visual things, and development
 - 🌱 I’m currently learning Web Dev and ThreeJS
 - 💞️ I’m looking to collaborate on Frontend Webdev projects
-- 📫 contact me at : yash-tekwani@email.com
+- 📫 contact me at : sallytionmakes@gmail.com
 - 😄 Pronouns: Sallytion, Yash
 - ⚡ Fun fact: Sandman was an Avenger before Spiderman
