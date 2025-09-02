@@ -1,6 +1,3 @@
-<!--My favourite header-->
-<img src="https://github.com/Sasuke1003/photoshub/blob/main/header.png"/>
-
 <img src="https://raw.githubusercontent.com/Sasuke1003/photoshub/main/gradient.svg" width="100%"/>
 
 <!--Intro-->
@@ -10,7 +7,7 @@
         <img src="https://img.shields.io/badge/GitHub-Sallytion-blue?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
     </a>
     -----
-    <a href="https://www.linkedin.com/in/yashtekwani" target="_blank">
+    <a href="https://www.linkedin.com/in/yash-tekwani" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-Yash%20Tekwani-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
     -----
@@ -86,7 +83,7 @@ I love building full-stack systems, designing clean interfaces, and experimentin
 <!-- Social -->
 <h3 align="center">🌐 Connect with me</h3>
 <p align="center">
-  <a href="https://linkedin.com/in/yashtekwani" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
+  <a href="https://linkedin.com/in/yash-tekwani" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
   <a href="mailto:sallytionmakes@gmail.com" target="blank"><img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/gmail.svg" height="30" width="40" /></a>
   <a href="https://github.com/Sallytion" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" height="30" width="40" /></a>
 </p>
