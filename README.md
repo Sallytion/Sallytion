@@ -42,14 +42,9 @@ I love building full-stack systems, designing clean interfaces, and experimentin
   <tr>
     <td valign="top">
       <h3 align="center">🎧 Music</h3>
-      <p align="center">
-      <!-- LASTFM -->
-🟢 Now Playing: Jeet - Ritviz
-      <!-- END -->
-      </p>
-    </td>
-    <td valign="top">
-      <h3>About Me 💡</h3>
+<p align="center">
+  <img src="https://scrobbler.sallytion.qzz.io/image.jpg" width="500" />
+</p>
       <ul>
         <li>🎓 Pursuing B.Tech CSE @ VIT Vellore (CGPA: 8.26)</li>
         <li>👨‍💻 Backend Developer Intern @ HairwayOn</li>
