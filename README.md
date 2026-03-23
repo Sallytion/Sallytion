@@ -41,7 +41,12 @@ I love building full-stack systems, designing clean interfaces, and experimentin
 <table align="center">
   <tr>
     <td valign="top">
-      <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=douling_km&cover_image=false&theme=default&show_offline=false&background_color=121212&interchange=false" width="350"/>
+      <h3 align="center">🎧 Music</h3>
+      <p align="center">
+      <!-- LASTFM -->
+      Loading...
+      <!-- END -->
+      </p>
     </td>
     <td valign="top">
       <h3>About Me 💡</h3>
