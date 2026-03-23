@@ -43,7 +43,7 @@ I love building full-stack systems, designing clean interfaces, and experimentin
     <td valign="top">
       <h3 align="center">🎧 Music</h3>
 <p align="center">
-  <img src="https://scrobbler.sallytion.qzz.io/image.jpg" width="500" />
+  <img src="https://scrobbler.sallytion.qzz.io/image.jpg?ts=1" width="500" />
 </p>
       <ul>
         <li>🎓 Pursuing B.Tech CSE @ VIT Vellore (CGPA: 8.26)</li>
