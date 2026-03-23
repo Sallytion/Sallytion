@@ -44,7 +44,7 @@ I love building full-stack systems, designing clean interfaces, and experimentin
       <h3 align="center">🎧 Music</h3>
       <p align="center">
       <!-- LASTFM -->
-      Loading...
+🟢 Now Playing: Rangi Saari - Kavita Seth
       <!-- END -->
       </p>
     </td>
