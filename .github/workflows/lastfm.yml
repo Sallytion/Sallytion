@@ -1,0 +1,50 @@
+name: Update Last.fm
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"   # every 5 minutes
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch latest track
+        run: |
+          DATA=$(curl -s "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=Sallytion&api_key=904ca22dbf1db0912ec47c341056ddad&format=json&limit=1")
+
+          NAME=$(echo $DATA | jq -r '.recenttracks.track[0].name')
+          ARTIST=$(echo $DATA | jq -r '.recenttracks.track[0].artist["#text"]')
+          NOWPLAYING=$(echo $DATA | jq -r '.recenttracks.track[0]["@attr"].nowplaying // "false"')
+
+          if [ "$NOWPLAYING" = "true" ]; then
+            TEXT="🟢 Now Playing: $NAME - $ARTIST"
+          else
+            TEXT="⏸️ Last Played: $NAME - $ARTIST"
+          fi
+
+          echo "$TEXT" > lastfm.txt
+
+      - name: Update README (only if changed)
+        run: |
+          CURRENT=$(sed -n '/<!-- LASTFM -->/,/<!-- END -->/p' README.md | sed '1d;$d')
+
+          NEW=$(cat lastfm.txt)
+
+          if [ "$CURRENT" = "$NEW" ]; then
+            echo "No change, skipping commit"
+            exit 0
+          fi
+
+          sed -i "s|<!-- LASTFM -->.*<!-- END -->|<!-- LASTFM -->$NEW<!-- END -->|" README.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update Last.fm track" || exit 0
+          git push
